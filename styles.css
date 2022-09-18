@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+
+a {
+    text-decoration: none;
+    color: white; 
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.head {
+    display: flex;
+    justify-content: space-between; 
+    background-color:teal;
+    padding:18px 100px;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    gap:45px;
+}
+
+.myImage {
+    width: 300px;
+    height:300px;
+    border-radius: 150px;
+    padding: 30px;
+}
+
+.firstsection {
+    text-align: center;
+    background-color: white;
+}
+
+.desc {
+    padding: 10px;
+}
+
+.secondsection {
+    display: flex;
+    background-color: teal;
+    border: 1px solid teal;
+    height:300px;
+    padding: 90px 150px;
+    gap:200px;
+}
+
+.subhead {
+    padding:10px;
+}
+
+.second-subhead {
+    padding:8px;
+}
+
+.reachme {
+    padding:8px;
+}
+
+.third-section {
+    background-color: white;
+    height: 400px;
+    border: 1px solid white;
+    padding: 100px 150px;
+    
+}
+.section-head {
+    color:teal;
+    padding-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    gap:60px;
+    height: 150px;
+    color: white;
+}
+
+.box1 {
+    background-color: rgb(1, 22, 22);
+    border: 1px solid  rgb(1, 22, 22);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.box1 h3 {
+    padding:15px;
+}
+
+.box2 {
+    border: 1px solid  rgb(1, 22, 22);
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(1, 22, 22);
+    border-radius: 10px;
+}
+
+.box2 h3 {
+    padding:15px;
+}
+
+.box3 {
+    border: 1px solid  rgb(1, 22, 22);
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(1, 22, 22);
+    border-radius: 10px;
+}
+
+.box3 h3 {
+    padding:15px;
+}
+footer {
+    text-align: center;
+    background-color: teal;
+    padding:40px 0px;
+    height:200px;
+}
+footer h3,h2,img {
+    padding-bottom: 15px;
+}
+footer p {
+    padding:10px;
+}
